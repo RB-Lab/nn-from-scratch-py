@@ -1,0 +1,22 @@
+{
+    "cSpell.words": [
+        "argmax",
+        "cmap",
+        "Crossentropy",
+        "deno",
+        "diagflat",
+        "dtype",
+        "keepdims",
+        "linspace",
+        "matplotlib",
+        "NNFS",
+        "nptyping",
+        "pyplot",
+        "randn",
+        "relu",
+        "Softmax",
+        "xlabel",
+        "ylabel"
+    ],
+    "editor.lightbulb.enabled": false
+}
