@@ -11,10 +11,12 @@
         "matplotlib",
         "NNFS",
         "nptyping",
+        "predᵢₖ",
         "pyplot",
         "randn",
         "relu",
         "Softmax",
+        "trueᵢₖ",
         "xlabel",
         "ylabel"
     ],

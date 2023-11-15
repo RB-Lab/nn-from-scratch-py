@@ -18,6 +18,7 @@ class Activation_Softmax:
     # Forward pass
     def forward(self, inputs):
         # Get un-normalized probabilities
+        # axis = 1 means for each row; keepdims = True means output is a 2D array (as was the input)
         exp_values = np.exp(inputs - np.max(inputs, axis=1, keepdims= True)) 
         probabilities = exp_values / np.sum(exp_values, axis=1,keepdims = True)
         # Normalize them for each sample 
